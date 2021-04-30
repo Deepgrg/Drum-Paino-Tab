@@ -1,0 +1,22 @@
+.key {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(117, 117, 117);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 6px #969696;
+  cursor: pointer;
+  color: #131313;
+}
+
+.mouseDown {
+  box-shadow: 1px 1px 6px #7a7a7a;
+  background-color: azure;
+}
+
+.mouseUp {
+  box-shadow: 5px 5px 6px #969696;
+  background-color: rgb(117, 117, 117);
+}
