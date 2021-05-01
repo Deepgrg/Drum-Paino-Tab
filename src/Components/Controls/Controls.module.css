@@ -37,3 +37,31 @@
 .volumeSlider {
   width: 250px;
 }
+
+/* Table View */
+@media (max-width: 768px) {
+  .controls {
+    height: 270px;
+  }
+  .volumeSlider {
+    width: 210px;
+  }
+  .instrumentInfo {
+    height: 50px;
+    width: 150px;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 414px) {
+  .controls {
+    height: 250px;
+  }
+  .volumeSlider {
+    width: 150px;
+  }
+  .instrumentInfo {
+    height: 45px;
+    width: 120px;
+  }
+}

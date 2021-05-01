@@ -57,6 +57,7 @@ function App() {
         </div>
         <div>
           <Controls
+            className={classes.controls}
             power={power}
             onPowerChange={onPowerChange}
             volume={volume}

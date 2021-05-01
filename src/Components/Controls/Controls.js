@@ -31,7 +31,7 @@ const Controls = (props) => {
       </div>
 
       <div className={classes.volumeSlider}>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} alignItems="center">
           <Grid item>
             <VolumeDownIcon style={{ color: "#606060" }} />
           </Grid>

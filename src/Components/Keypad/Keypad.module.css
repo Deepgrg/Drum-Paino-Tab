@@ -8,3 +8,27 @@
   height: auto;
   padding: 10px;
 }
+
+/* Table View */
+@media (max-width: 768px) {
+  .keypad {
+    width: 290px;
+    height: auto;
+    grid-row-gap: 7px;
+    grid-column-gap: 7px;
+    padding: 8px;
+    margin: auto;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 414px) {
+  .keypad {
+    width: 160px;
+    height: auto;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    padding: 6px;
+    margin: auto;
+  }
+}

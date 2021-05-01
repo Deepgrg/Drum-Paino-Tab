@@ -1,6 +1,6 @@
 .app {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,4 +28,31 @@
   flex-grow: 0.5;
   height: 100%;
   width: 100%;
+}
+
+/* Table View */
+@media (max-width: 768px) {
+  .core {
+    width: 400px;
+    height: auto;
+    border: 6px solid #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .app {
+    font-size: small;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 414px) {
+  .core {
+    width: 200px;
+    height: auto;
+    border: 3px solid #ffffff;
+  }
+  .app {
+    font-size: smaller;
+  }
 }
